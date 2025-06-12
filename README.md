@@ -43,7 +43,7 @@ git clone https://github.com/zsh-users/zsh-autosuggestions $ZSH/custom/plugins/z
 hyprctl dispatch exit
 ```
 
-### install yay 
+### install yay (Optional)
 
 ```bash
 sudo pacman -S --needed git base-devel
@@ -53,12 +53,24 @@ makepkg -si
 ```
 
 
-### install AUR packages
+### a) install AUR packages from yay
 
 ```bash
 yay -S hyprshot clipse bibata-cursor-theme otf-monocraft --needed --noconfirm
 ```
+
+### b) install AUR packages from source
+
+    [hyprshot](https://github.com/Gustash/Hyprshot)
+    [clipse](https://github.com/savedra1/clipse)
+    [bibata-cursor-theme](https://github.com/ful1e5/Bibata_Cursor)
+    [otf-monocraft](https://github.com/IdreesInc/Monocraft)
+
+
+
+
 ### force uninstallation of packages that will create conflicts later (they'll be reinstalled as -git versions later)
+
 
 ```bash
 yay -Rdd hyprutils hyprwayland-scanner
