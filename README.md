@@ -73,8 +73,9 @@ yay -S hyprshot clipse bibata-cursor-theme otf-monocraft --needed --noconfirm
 
 
 ```bash
-yay -Rdd hyprutils hyprwayland-scanner
+sudo pacman -Rns hyprutils hyprwayland-scanner
 ```
+
 ### install hyprpanel
 
 https://hyprpanel.com/getting_started/installation.html
