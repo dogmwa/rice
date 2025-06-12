@@ -224,11 +224,20 @@ sudo systemctl enable --now gdm
 ### After rebooting into GDM, you’ll see the login screen.
 ### Click on your user, then you’ll see a menu in the bottom right corner where you can easily select the default desktop environment (in this case, Hyprland).
 
-### download tool for change gtk themes and icon themes
+### a) download tool for change gtk themes and icon themes from yay
 
 ```bash
 yay -S --needed --noconfirm nwg-look themechanger-git
 ```
+
+### b) download tool for change gtk themes and icon themes from pacman and source
+
+```bash
+sudo pacman --needed --noconfirm nwg-look
+```
+
+[Themechanger](https://github.com/ALEX11BR/ThemeChanger)
+
 
 ### Use themechanger to apply the WhiteSur GTK theme,
 ### and nwg-look to configure WhiteSur icons
