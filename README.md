@@ -62,9 +62,13 @@ yay -S hyprshot clipse bibata-cursor-theme otf-monocraft --needed --noconfirm
 ### b) install AUR packages from source
 
 [hyprshot](https://github.com/Gustash/Hyprshot)
+
 [clipse](https://github.com/savedra1/clipse)
+
 [bibata-cursor-theme](https://github.com/ful1e5/Bibata_Cursor)
+
 [otf-monocraft](https://github.com/IdreesInc/Monocraft)
+
 
 
 
