@@ -236,7 +236,7 @@ yay -S --needed --noconfirm nwg-look themechanger-git
 sudo pacman --needed --noconfirm nwg-look
 ```
 
-[Themechanger](https://github.com/ALEX11BR/ThemeChanger)
+[Themechanger source](https://github.com/ALEX11BR/ThemeChanger)
 
 
 ### Use themechanger to apply the WhiteSur GTK theme,
