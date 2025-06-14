@@ -21,7 +21,7 @@ sudo pacman -Syu
 ### install all packages 
 
 ```bash
-sudo pacman -S kitty nautilus git cmake meson cpio pkg-config gcc hypridle hyprlock fuzzel keepassxc flatpak discord zsh fastfetch firefox gdm --needed --noconfirm
+sudo pacman -S kitty nautilus git cmake meson cpio pkg-config gcc hypridle hyprlock fuzzel keepassxc flatpak hyprpolkitagent zsh fastfetch firefox gdm --needed --noconfirm
 ```
 
 ### install ZSH and OH-MY-ZSH 
@@ -109,10 +109,14 @@ hyprpm enable Hyprspace
 ```bash
 sh -c "$(curl -sS https://raw.githubusercontent.com/Vendicated/VencordInstaller/main/install.sh)"
 ```
-### install missioncenter (task manager)
+### install missioncenter (task manager) and Discord
 
 ```bash
 flatpak install flathub io.missioncenter.MissionCenter
+```
+
+```bash
+flatpak install flathub com.discordapp.Discord
 ```
 
 ## Clone
